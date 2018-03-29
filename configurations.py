@@ -3,24 +3,20 @@
 cutoffRatio = .60
 evalueCutoff = 1e-4
 # The amount of overlap two proteins need to have to be consider the "same" protein
-simularProteinRatio = .90
+similarProteinRatio = .90
 
 # skip BLAST all-to-all, if you copy pasted the BLAST all to all information and protein length information
 # to the Generated folder, you can set to this True to skip running BLAST all-to-all
-skipBLAST = True
+skipBLAST = False
 
 # delete generated folder from 1-3 to safe disk space
 deleteFolders = False
 
-# numProteinInDataset = 1000
-#
-# minNumProteinInFamily = 50
-
 # location of the sequence files (in fasta format) for analysis
 inputFolder = "InputFiles"
 
-# Location of runtime information
 runTimefolder = "Results"
+# Location of runtime information
 runTimeFile = "Results/$RuntimeInfo.txt"
 logFolder = "Results"
 logFile = "Results/log.txt"
